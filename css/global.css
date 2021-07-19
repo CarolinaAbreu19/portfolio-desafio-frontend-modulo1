@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--dark-blue-200);
+    background-color: var(--light-gray-100);
+}
+
+button,
+textarea,
+input {
+    all: unset;
+}
+
+header {
+    padding: 4.83vw 12.45vw 4.07vw;
+}
+
+header a, footer a {
+    margin-left: 3.4vw;
+}
+
+header a {
+    color: var(--dark-blue-200);
+}
+
+main {
+    padding: 0 12.45vw;
+}
+
+footer {
+    padding: 2.11vw 12.45vw;
+
+    background-color: var(--dark-blue-200);
+}
+
+footer a {
+    color: var(--white);
+}
+
+.header__link--active {
+    color: var(--cyan);
+}
+
+.footer__social img {
+    margin-left: 1.21vw;
+}
+
+.basic-button {
+    color: var(--dark-blue-200);
+    border: 1px solid var(--dark-blue-200);
+
+    transition: 0.5s;
+}
+
+.basic-button:hover {
+    background-color: var(--dark-blue-200);
+    color: var(--white);
+}
+
+.card {
+    border-top: 1px solid var(--light-gray-200);
+    border-bottom: 1px solid var(--light-gray-200);
+}
+
+.contact {
+    margin-bottom: 11.32vw;
+}
+
+.contact .basic-button {
+    padding: 1.28vw 3.77vw;
+}
+
+.contact__title {
+    max-width: 27.7vw;
+}

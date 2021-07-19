@@ -1,0 +1,73 @@
+.hero {
+    position: relative;
+
+    margin-bottom: 11.55vw;
+}
+
+.hero img {
+    max-height: 45.28vw;
+}
+
+.hero__card {
+    max-width: 33.58vw;
+    background-color: var(--light-gray-100);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hero__title {
+    margin: 4.23vw 2.11vw 4vw;
+}
+
+.hero__button {
+    background-color: var(--dark-blue-100);
+
+    max-width: 15.09vw;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+.hero__button:hover {
+    background-color: var(--cyan);
+}
+
+.hero__button figure {
+    padding: 1.36vw;
+    margin-right: 2.26vw;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hero__button a {
+    color: var(--white);
+}
+
+.about {
+    margin-bottom: 11.02vw;
+}
+
+.about__image img {
+    max-width: 40.75vw;
+}
+
+.about__card {
+    margin-left: 10.56vw;
+    padding: 3.77vw 0;
+}
+
+.about__title {
+    align-self: flex-start;
+}
+
+.about__main {
+    padding: 2.11vw 0;
+}
+
+.about__card .basic-button {
+    padding: 1.28vw 2.11vw;
+    margin-top: 2.11vw;
+    align-self: center;
+}

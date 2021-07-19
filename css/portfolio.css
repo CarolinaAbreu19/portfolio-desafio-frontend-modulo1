@@ -1,0 +1,62 @@
+h4 {
+    color: var(--cyan);
+}
+
+.hero img {
+    max-width: 75vw;
+    margin-bottom: 8.68vw;
+}
+
+.main__aside {
+    padding: 3.62vw 0;
+    max-height: 40vw;
+}
+
+.main__aside .main__text {
+    margin: 2.19vw 0 4vw;
+}
+
+.main__aside .basic-button {
+    padding: 1.28vw 4.53vw;
+}
+
+.main__tags {
+    margin-bottom: 2.41vw;
+}
+
+.main__tags h4:first-child {
+    margin-bottom: 1.21vw;
+}
+
+.main__project {
+    margin: 0 0 4.83vw 9.43vw;
+}
+
+.main__project h3{
+    margin-bottom: 2.11vw;
+}
+
+.preview__image {
+    max-width: 47.92vw;
+}
+
+.preview__image:first-child {
+    margin-bottom: 2.41vw;
+}
+
+.main__description .main__text {
+    font-size: 15px;
+    padding-bottom: 3.02vw;
+}
+
+.projects {
+    margin-bottom: 8.68vw;
+}
+
+.projects__legend {
+    margin: 2.41vw;
+}
+
+.projects__legend p {
+    opacity: 0.5;
+}

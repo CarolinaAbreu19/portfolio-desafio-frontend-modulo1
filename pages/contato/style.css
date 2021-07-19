@@ -1,0 +1,66 @@
+fieldset {
+    border: none;
+}
+
+label {
+    opacity: 0.8;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-bottom: 0.6vw;
+}
+
+input, textarea {
+    background-color: var(--light-gray-200);
+
+    width: 47.92vw;
+    padding: 0.5vw;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid var(--dark-blue-200);
+}
+
+button {
+    padding: 1.28vw 3.62vw;
+
+    color: var(--white);
+    background-color: var(--dark-blue-100);
+
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: var(--cyan);
+}
+
+.disclaimer {
+    padding: 3.62vw 0;
+}
+
+.disclaimer__text {
+    padding-bottom: 4.07vw;
+}
+
+.disclaimer__social img {
+    padding: 0 1.21vw;
+}
+
+.disclaimer__main,
+.contact__form {
+    margin-left: 9.43vw;
+}
+
+.contact {
+    margin-top: 3.55vw;
+}
+
+.contact__input {
+    margin-bottom: 1.81vw;
+}

@@ -1,0 +1,33 @@
+figure img {
+    max-width: 40.75vw;
+}
+
+.container {
+    align-items: center;
+    
+    margin-bottom: 6.04vw;
+}
+
+.container:last-child {
+    margin-bottom: 11.32vw;
+}
+
+.card__image--left {
+    margin-right: 9.43vw;
+}
+
+.card__image--right {
+    margin-left: 9.43vw;
+}
+
+.card__main {
+    padding: 7.77vw 0;
+}
+
+.card__text {
+    margin: 2.11vw 0 4.07vw;
+}
+
+.basic-button {
+    padding: 1.28vw 2.87vw;
+}
